@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One');
+
+html{
+    font-family: 'Text Me One', sans-serif;
+}
+h1{
+    color: black; 
+    text-align:center;
+    background-color: lavender;
+    border:5px solid black;
+    border-radius: 16px;
+    font-size: 100px;
+}
+nav ul{
+    list-style-type: none;
+    background-color: ;
+    border: 4px solid: black;
+    border-radius: 10px;
+    font-family: 'Text Me One', sans-serif;
+    font-weight: bold;
+    padding: 16px;
+}
+nav ul li{
+    display: inline;
+    border-right: 2px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+nav ul li:last-child{
+    border-right: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+body{
+    background-color: lavenderblush;
+    backface-visibility: visible;
+}
